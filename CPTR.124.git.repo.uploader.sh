@@ -1,24 +1,32 @@
 #!/bin/bash
 
-# wget -O /Users/Aaron/Temp/CPTR.124.Temp "http://www.cs.southern.edu/halterman/repository/ClassCode/124/CPTR_124_Class_Code.zip"
+mkdir Temp.Cache
 
-curl http://www.cs.southern.edu/halterman/repository/ClassCode/124/CPTR_124_Class_Code.zip -o /Users/Aaron/Temp/CPTR.124.Temp/CPTR_124_Class_Code.zip
+# wget -O Temp.Cache "http://www.cs.southern.edu/halterman/repository/ClassCode/124/CPTR_124_Class_Code.zip"
 
-cd /Users/Aaron/Temp/CPTR.124.Temp
+curl http://www.cs.southern.edu/halterman/repository/ClassCode/124/CPTR_124_Class_Code.zip -o Temp.Cache/CPTR_124_Class_Code.zip
 
-unzip *.zip -d /Users/Aaron/Temp/CPTR.124.Temp/Temp.extract
+cd Temp.Cache
 
-rsync -rSP /Users/Aaron/Temp/CPTR.124.Temp/Temp.extract/* /Users/Aaron/Git.Repositories/Computer.class.repo
+mkdir Temp.extract
 
-rm -r /Users/Aaron/Temp/CPTR.124.Temp/*.zip
+unzip *.zip -d Temp.extract
 
-rm -r /Users/Aaron/Temp/CPTR.124.Temp/Temp.extract/*
+rsync -rSP Temp.extract/* /Users/Aaron/Git.Repositories/Computer.class.repo
 
-cd /Users/Aaron/Git.Repositories/Computer.class.repo
+rm -vr *.zip
 
-git add *
+rm -vr Temp.extract
 
-git commit -m "Add *"
+cd ..
+
+rmdir Temp.Cache
+
+cd ~/Git.Repositories/Computer.class.repo
+
+git add .
+
+git commit -m "Dominion"
 
 git remote add origin https://github.com/Doom4535/Computer.class.repo
 
