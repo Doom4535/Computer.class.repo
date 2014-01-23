@@ -1,14 +1,15 @@
 #!/bin/bash
 
-# This script has been updated to only download the CPTR 124 files and a seperate one has been made with the intent of being used to update all the included directories at once.
+# Now includes both the 124 and 318 level programming classes.
 # Download the code and extract it. 
 mkdir Temp.Cache
 curl http://www.cs.southern.edu/halterman/repository/ClassCode/124/CPTR_124_Class_Code.zip -o Temp.Cache/CPTR_124_Class_Code.zip
-unzip -uo Temp.Cache/*.zip
+curl http://www.cs.southern.edu/halterman/repository/ClassCode/318/CPTR_318_Class_Code.zip -o Temp.Cache/CPTR_318_Class_Code.zip
+unzip -uo Temp.Cache/CPTR_124_Class_Code.zip
+unzip -uo Temp.Cache/CPTR_318_Class_Code.zip 
 rm -vr Temp.Cache
 
 # Upload changes to the repository
 git add .
 git commit -m
 git push
-
