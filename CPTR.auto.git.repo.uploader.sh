@@ -11,5 +11,5 @@ rm -vr Temp.Cache
 
 # Upload changes to the repository
 git add .
-git commit -m "$(whoami)""@""$hostname"
+git commit -m $(whoami)'@'$(hostname)
 git push
