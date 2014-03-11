@@ -67,6 +67,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DotConnect3x3_graphical", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MenuDrven4", "MenuDrven4\MenuDrven4.vcxproj", "{97FD1B91-AFB6-4926-999B-077B7521EDFD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Quiz15", "Quiz15\Quiz15.vcxproj", "{C4947A5D-DA50-4D86-82AB-07F6B99A84E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -201,6 +203,10 @@ Global
 		{97FD1B91-AFB6-4926-999B-077B7521EDFD}.Debug|Win32.Build.0 = Debug|Win32
 		{97FD1B91-AFB6-4926-999B-077B7521EDFD}.Release|Win32.ActiveCfg = Release|Win32
 		{97FD1B91-AFB6-4926-999B-077B7521EDFD}.Release|Win32.Build.0 = Release|Win32
+		{C4947A5D-DA50-4D86-82AB-07F6B99A84E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4947A5D-DA50-4D86-82AB-07F6B99A84E9}.Debug|Win32.Build.0 = Debug|Win32
+		{C4947A5D-DA50-4D86-82AB-07F6B99A84E9}.Release|Win32.ActiveCfg = Release|Win32
+		{C4947A5D-DA50-4D86-82AB-07F6B99A84E9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

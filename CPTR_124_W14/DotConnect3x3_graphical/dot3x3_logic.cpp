@@ -10,10 +10,10 @@
 //  exists between two dots; for example, if
 //  nw_n is true, this means a line connects dots NorthWest and North.
 static bool nw_n, n_ne,
-nw_w, n_c, ne_e,
-w_c, c_e,
-w_sw, c_s, e_se,
-sw_s, s_se;
+            nw_w, n_c, ne_e,
+            w_c, c_e,
+            w_sw, c_s, e_se,
+            sw_s, s_se;
 
 
 //  The player whose turn it is currently
@@ -23,7 +23,7 @@ static Player player;
 //  If leftbottom_player equals X, that means player X owns 
 //  the left-bottom square.
 static Player lefttop_player, righttop_player,
-leftbottom_player, rightbottom_player;
+              leftbottom_player, rightbottom_player;
 
 
 //---------------------------------------------------------------

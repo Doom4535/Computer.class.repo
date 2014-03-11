@@ -48,8 +48,4 @@ int main() {
 				break;
 		}
 	} while (!done);
-	//  Almost done
-	cout << 45 << " is"
-		<< (is_prime(45) ? " " : " not ")
-		<< "prime" << endl;
 }
