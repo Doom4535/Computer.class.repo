@@ -197,7 +197,7 @@ Player square_owner(SquarePosition sq)
 
 //  Returns true if the line between the two points 
 //  is active; otherwise, returns false.
-bool check_line(LinePosition line)
+static bool check_line(LinePosition line)
 {
 	if (line == NorthWest_North)
 		return nw_n;

@@ -40,7 +40,7 @@ bool add_line(LinePosition line);
 
 //  Returns true if the given line 
 //  is active; otherwise, returns false.
-bool check_line(LinePosition line);
+static bool check_line(LinePosition line);
 
 //  Returns the player who owns the given square.
 //  Returns None if the square has no owner.
