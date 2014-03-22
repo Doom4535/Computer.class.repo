@@ -1,0 +1,16 @@
+﻿Build started 3/12/2014 10:28:28 AM.
+     1>Project "C:\Users\rick\Documents\Code\CPTR_124_W14\DotConnect3x3_graphical\DotConnect3x3_graphical.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Za /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dot3x3_logic.cpp DotConnect3x3_graphical.cpp
+         DotConnect3x3_graphical.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(592): error C2129: static function 'bool check_line(LinePosition)' declared but not defined
+                 c:\users\rick\documents\code\cptr_124_w14\dotconnect3x3_graphical\dot3x3_logic.h(43) : see declaration of 'check_line'
+         dot3x3_logic.cpp
+     1>c:\users\rick\documents\code\cptr_124_w14\dotconnect3x3_graphical\dot3x3_logic.cpp(78): warning C4505: 'check_square' : unreferenced local function has been removed
+     1>c:\users\rick\documents\code\cptr_124_w14\dotconnect3x3_graphical\dot3x3_logic.h(43): warning C4505: 'check_line' : unreferenced local function has been removed
+         Generating Code...
+     1>Done Building Project "C:\Users\rick\Documents\Code\CPTR_124_W14\DotConnect3x3_graphical\DotConnect3x3_graphical.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.81
