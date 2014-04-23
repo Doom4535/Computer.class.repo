@@ -1,0 +1,16 @@
+﻿Build started 4/22/2014 9:24:36 PM.
+     1>Project "C:\Users\rick\Documents\W14\src\CPTR_124_W14\lineplay_fancier\lineplay_fancier.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Za /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt lineplay_fancier.cpp
+         lineplay_fancier.cpp
+     1>c:\users\rick\documents\w14\src\cptr_124_w14\lineplay_fancier\lineplay_fancier.cpp(36): warning C4510: 'line2' : default constructor could not be generated
+                 c:\users\rick\documents\w14\src\cptr_124_w14\lineplay_fancier\lineplay_fancier.cpp(32) : see declaration of 'line2'
+     1>c:\users\rick\documents\w14\src\cptr_124_w14\lineplay_fancier\lineplay_fancier.cpp(36): warning C4610: class 'line2' can never be instantiated - user defined constructor required
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\rick\Documents\W14\src\CPTR_124_W14\Debug\lineplay_fancier.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\rick\Documents\W14\src\CPTR_124_W14\Debug\lineplay_fancier.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\rick\Documents\W14\src\CPTR_124_W14\Debug\lineplay_fancier.lib" /MACHINE:X86 Debug\lineplay_fancier.obj
+         lineplay_fancier.vcxproj -> C:\Users\rick\Documents\W14\src\CPTR_124_W14\Debug\lineplay_fancier.exe
+     1>Done Building Project "C:\Users\rick\Documents\W14\src\CPTR_124_W14\lineplay_fancier\lineplay_fancier.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.00
