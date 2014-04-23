@@ -85,6 +85,7 @@ int main() {
 		                  { 1, 1, 0, 0, 1, 0, 0 },
 		                  { 0, 1, 0, 1, 0, 0, 0 } };
 
+<<<<<<< HEAD
 	bfs(A, 3);      //  Breadth-first search
 	cout << endl;
 	dfs(A, 3);      //  Iterative, explicit-stack-based depth-first search
@@ -92,3 +93,12 @@ int main() {
 	dfs_rec(A, 3);  //  Recursive depth-first search
 	cout << endl;
 }
+=======
+	bfs(A, 6);      //  Breadth-first search
+	cout << endl;
+	dfs(A, 6);      //  Iterative, explicit-stack-based depth-first search
+	cout << endl;
+	dfs_rec(A, 6);  //  Recursive depth-first search
+	cout << endl;
+}
+>>>>>>> slave

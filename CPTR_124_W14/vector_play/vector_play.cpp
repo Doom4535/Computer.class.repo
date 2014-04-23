@@ -1,5 +1,10 @@
 #include <iostream>
 #include <vector>
+<<<<<<< HEAD
+=======
+#include <cstdlib>
+#include <ctime>
+>>>>>>> slave
 
 using namespace std;
 
@@ -49,7 +54,34 @@ int count_nonnegatives_2(const vector<int>& v) {
 	return count;
 }
 
+<<<<<<< HEAD
 
+=======
+vector<int> make_random_vector() {
+	int size = rand() % 20;
+	vector<int> result(size);
+	for (int i = 0; i < size; i++) {
+		result[i] = rand() % 1000;
+	}
+	return result;
+}
+
+void sort(vector<int>& v) {
+	int n = v.size();
+	for (int i = 0; i < n - 1; i++) {
+		int smallest = i;
+		for (int j = i + 1; j < n; j++) {
+			if (v[j] < v[smallest])
+				smallest = j;
+		}
+		if (i != smallest) {
+			int temp = v[i];
+			v[i] = v[smallest];
+			v[smallest] = temp;
+		}
+	}
+}
+>>>>>>> slave
 
 int main() {
 	vector<int> vec;
@@ -88,4 +120,21 @@ int main() {
 	cout << "Number of non-negatives (alternate): "
 		<< count_nonnegatives_2(vec3) << endl;
 
+<<<<<<< HEAD
+=======
+	srand(time(0));
+	vector<int> vec4 = make_random_vector();
+	cout << vec4 << endl;
+
+	cout << "===============================" << endl;
+	for (int i = 0; i < 10; i++) {
+		vec4 = make_random_vector();
+		cout << ">>> " << vec4
+			 << " (" << vec4.size() << ")"
+			 << endl;
+		sort(vec4);
+		cout << "*** " << vec4 << endl;
+		cout << "-------" << endl;
+	}
+>>>>>>> slave
 }

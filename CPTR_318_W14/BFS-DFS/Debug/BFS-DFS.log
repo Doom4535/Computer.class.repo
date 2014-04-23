@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Build started 3/25/2014 10:01:36 AM.
+=======
+﻿Build started 3/26/2014 6:09:55 PM.
+>>>>>>> slave
      1>Project "C:\Users\rick\Documents\Code\CPTR_318_W14\BFS-DFS\BFS-DFS.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Za /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BFS_DFS.cpp
@@ -10,4 +14,8 @@
 
 Build succeeded.
 
+<<<<<<< HEAD
 Time Elapsed 00:00:00.96
+=======
+Time Elapsed 00:00:01.73
+>>>>>>> slave
